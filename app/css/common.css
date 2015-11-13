@@ -1,0 +1,17 @@
+html{
+	background: #eeeeee;
+	font:14px "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+body,p,h1,h2,h3,h4,h5,h6,ul,li{
+	margin: 0;
+	padding:0;
+}
+li{
+	list-style: none
+}
+header{
+	background: #f4f4f4;
+	border-bottom: 1px solid #eee;
+	height:40px
+}

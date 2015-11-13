@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "0.0.1",
+  "description": "test example",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/components/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "require": "*",
+    "requirejs-react-jsx": "~0.14.2"
+  }
+}

@@ -1,0 +1,97 @@
+.todosApp{
+	width:520px;
+	margin:auto;
+	background: #fff;
+	text-align:center;
+	box-shadow:rgba(0, 0, 0, 0.2) 0 2px 6px 0;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+}
+.todosApp .content{
+	padding: 20px 
+}
+.todosApp h1{
+	font-size: 36px;
+	font-weight: bold;
+	padding-bottom: 10px
+}
+.todosApp input[type='text']{
+	width:100%;
+	font-size: 24px;
+	padding:6px;
+	outline:none;
+	border:1px solid #999999 ;
+	height:45px;
+	line-height: 45px
+}
+
+.todosApp .lists li{
+	padding: 18px 20px 18px 0;
+	font-size:24px;
+	text-align: left;
+	border-bottom:1px solid #ccc;
+	position: relative;
+}
+.todosApp .lists li:last-child{
+	border-bottom:none;
+}
+.todosApp .lists input[type='checkbox']{
+	margin-right: 20px
+}
+.todosApp .lists li .text{
+	border: none;
+	width: 90%;
+	font-size: 24px;
+	outline:0;
+}
+.todosApp .lists .seled .text{ 
+	text-decoration:line-through;
+	color:#999;
+}
+.todosApp .lists li .del{
+	position: absolute;
+	right: 0;
+	top:22px;
+	width: 20px;
+	height: 20px;
+	display: none;
+	background: url('../image/destroy.png')
+}
+.todosApp .lists li .del:hover{
+	background-position: 0 -20px
+}
+.todosApp .lists li:hover .del{
+	display: inline-block;
+}
+
+
+.todosApp .state{
+	text-align: left;
+	color:#555;
+	position: relative;
+	background:#f4fce8;
+	border-top:1px solid #ededed; 
+	padding:10px 20px;
+	margin-top:-20px;
+}
+.todosApp .state .count{
+	margin-right:10px;
+	font-weight: bold;
+}
+.todosApp .state .clear{
+	padding: 4px 10px;
+	background:rgba(0, 0, 0, 0.1);
+	height: 12px;
+	line-height: 12px;
+	position: absolute;
+	right: 20px;
+	top:8px;
+	border-radius:15px;
+	font-size:12px;
+}
+.todosApp .state .clear:hover{
+	background: rgba(0, 0, 0,0.3);
+}
+.todosApp ::-webkit-input-placeholder { 
+	font-style: italic;
+}
