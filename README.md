@@ -13,7 +13,7 @@
  + 安装grunt
  +  安装 grunt-cli
  +  在项目根目录下执行  npm install 
- +  在项目根目录下执行 bower install (bower 安装require的路径删除了，所以我把依赖一并提交了，无需运行了)
+ +  在项目根目录下执行 bower install (bower 安装require的路径删除了，所以我把依赖一并提交了，无需运行了.据说bower已经只有一人维护了)
 
 ### 三、运行
 + 在项目根目录下 执行 grunt server
