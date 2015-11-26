@@ -29,6 +29,13 @@ define(['react'
 				}
 			}
 		}
+		,editeEvent:function(ev){
+			var node  = $(ev.currentTarget);
+			var index = node.parent().attr('data-index');
+			var val = node.val();
+			this.state.lists[index].text = val;
+			this.setState(this.state);
+		}
 		,checkEvent:function(ev){
 			var node  = $(ev.currentTarget);
 			var checked = node.prop('checked');

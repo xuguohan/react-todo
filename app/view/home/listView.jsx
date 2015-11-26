@@ -10,7 +10,7 @@ define(['react'],function(React){
 				return (
 							<li data-index={index} className={className}>
 								<input type='checkbox' onClick ={self.props.checkEvent}  checked = {item.checked}/>
-								<input className='text' value = {item.text} />
+								<input className='text' value = {item.text}  onChange={self.props.editeEvent}/>
 								<span className='del' onClick={self.props.deleteEvnet}></span>
 						   	</li>
 					   )
